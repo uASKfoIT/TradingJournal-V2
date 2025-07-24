@@ -1,0 +1,106 @@
+.welcome{
+    height: 2.5rem;
+    width: 15rem;
+    margin-top: 1rem;
+    /*border: 1px solid black;*/
+}
+
+.journal-content{
+    height: 40rem;
+    width: 60rem;
+    margin-top: 2rem;
+    justify-self: center;
+    /*border: 1px solid black;*/
+}
+.journal-title{
+    height: 4rem;
+    width: 20rem;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid blue;*/
+}
+.journal-dashboard{
+    height: 35rem;
+    width: 55rem;
+    justify-self: center;
+    background-color: #f9f9f9fa;
+    box-shadow:1px 1px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    /*border: 1px solid black;*/
+}
+.journal-list{
+    height: 30rem;
+    width: 50rem;
+    justify-self: center;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 10px; /* optional spacing between children */
+    place-items: center; /* Center items vertically and horizontally */
+}
+
+/*Journal*/
+.journal{
+    height: 10rem;
+    width: 9rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    /*border: 1px solid black;*/
+}
+.journal-image{
+    height: 8.5rem;
+    width: inherit;
+    border-radius: inherit;
+    object-fit: contain;
+    border: 1px solid black;
+}
+
+/*Journal Dashboard & Button*/
+.buttons-menu{
+    height: 2.5rem;
+    width: 14rem;
+    display: flex;
+    justify-content: space-between;
+    justify-self: right;
+}
+
+.button-container{
+    height: 2.5rem;
+    width: 6rem;
+    display: flex;
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow:1px 1px 3px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+.button-container:hover {
+    background-color: #1a5a8f;
+}
+.button-container__icon{
+    height: inherit;
+    width: 2rem;
+    border-radius: inherit;
+    /*border: 1px solid black;*/
+}
+.button-container__icon img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: inherit;
+}
+.button-label{
+    height: inherit;
+    width: 6rem;
+    /*border: 1px solid blue;*/
+    border-radius: inherit;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

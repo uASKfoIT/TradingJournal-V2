@@ -1,0 +1,112 @@
+/*Content Container*/
+.journalUP-container{
+    height: 25rem;
+    width: 20rem;
+    justify-self: center;
+    margin-top: 1rem;
+    background-color: #f9f9f9fa;
+    box-shadow:1px 1px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    /*border: solid 1px black;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Journal List & Journals*/
+.journalList{
+    height: inherit;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.journalSingle{
+    height: 4rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.journalForm{
+    height: 17rem;
+    width: 15rem;
+    box-shadow:1px 1px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid black;*/
+}
+.off{
+    display: none;
+}
+
+.journal{
+    height: 3rem;
+    width: 15rem;
+    /*border: solid 1px black;*/
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow:1px 1px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+.journal-title{
+    height: 2rem;
+    width: 8rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /*border: solid 1px black;*/
+}
+.journal-color{
+    height: 1.5rem;
+    width:  1.5rem;
+    background-color: orange;
+    border-radius: 0.2rem;
+    /*border: solid 1px black;*/
+}
+
+/*Check Box*/
+.unchecked{
+    height: 2rem;
+    width: 2rem;
+    background-color: white;
+    border: solid 1px rgb(221, 221, 221);
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow:1px 1px 1px rgba(0, 0, 0, 0.5);
+    /*border: solid 1px black;*/
+}
+.checked{
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(0, 162, 255);
+    border: solid 1px rgb(221, 221, 221);
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow:1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+/*Interchaning Menus*/
+.off{
+    display: none;
+}
+
+/*Buttons*/
+.journal-buttons{
+    height: 2rem;
+    width: 11rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}

@@ -1,0 +1,133 @@
+/*Note: Log in & Regiser Styles*/
+
+/*--Auth Entire Container--*/
+.auth-container{
+    height: 30rem;
+    width: 60rem;
+    margin-top: 2rem;
+    justify-self: center;
+    display: flex;
+    border-radius: 0.5rem;
+    background-color: #f9f9f9fa;
+    box-shadow:1px 1px 3px rgba(0, 0, 0, 0.5);
+    /*border: 1px solid black;*/
+}
+
+
+/*--Auth Art--*/
+.auth-art{
+    height: inherit;
+    width: 30rem;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+    /*border: 1px solid black;*/
+}
+.auth-art img{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+    object-fit: fill;
+}
+
+
+/*--Auth Form--*/
+.auth-form{
+    height: inherit;
+    width: 30rem;
+    border-radius: inherit;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    flex-direction: column;  /* Stack children vertically */
+    /*border: 1px solid black;*/
+}
+form{
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    flex-direction: column; 
+}
+.auth-form__title{
+    height: 3rem;
+    width: 15rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    /*border: 1px solid black;*/
+}
+.auth-form__company-msg{
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid black;*/
+}
+.auth-form__label{
+    height: 3rem;
+    width: 15rem;
+    /*border: 1px solid black;*/
+}
+.auth-form__input{
+    height: 2.1rem;
+    width: 15rem;
+    border-radius: 0.3rem;
+    box-shadow:1px 1px 3px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    /*border: 1px solid black;*/
+}
+.auth-form__input input[type="text"] {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.auth-form__button{
+    height: 2.5rem;
+    width: 9rem;
+    margin-top: 1rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    background-color: #0f2c94;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid black;*/
+}
+.auth-form__button:hover{
+    opacity: 80%;
+}
+
+.auth-form__msgContainer{
+
+    height: 2rem;
+    width: 15rem;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-self: center;
+    /*border: 1px solid black;*/
+}
+.auth-form__msgtxt{
+    height: inherit;
+    width: 8.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.auth-form__msg-link{
+    height: inherit;
+    width: 6.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hidden-submit{
+    display: none;
+}

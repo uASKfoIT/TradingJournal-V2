@@ -1,0 +1,78 @@
+/*TNR - Black*/
+.TNR-xxsmall__black{
+    font-size: xx-small;
+    color: rgb(90, 90, 90);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.TNR-xsmall__black{
+    font-size: x-small;
+    color: rgb(90, 90, 90);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.TNR-small__black{
+    font-size: small;
+    color: rgb(90, 90, 90);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.TNR-medium__black{
+    font-size: medium;
+    color: rgb(90, 90, 90);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.TNR-large__black{
+    font-size: large;
+    color: rgb(90, 90, 90);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.TNR-xlarge__black{
+    font-size: x-large;
+    color: rgb(90, 90, 90);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.TNR-xxlarge__black{
+    font-size: xx-large;
+    color: rgb(90, 90, 90);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+/*TNR - Orange*/
+.TNR-xxsmall__organge{
+    font-size: xx-small;
+    color: rgb(255, 119, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.TNR-xsmall__organge{
+    font-size: x-small;
+    color: rgb(255, 119, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+/*TNR - White*/
+.TNR-small__white{
+    font-size: small;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.TNR-medium__white{
+    font-size: medium;
+    color: rgb(255, 250, 250);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.TNR-large__white{
+    font-size: large;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
